@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TreeTableView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
@@ -20,33 +21,30 @@
                         <Font name="Arial" size="25.0" />
                      </font>
                   </Label>
-                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="178.0" stylesheets="@../CSS/login.css" text="Wyszukaj" />
+                  <Button alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" opacity="0.44" prefHeight="36.0" prefWidth="178.0" stylesheets="@../CSS/login.css" text="Wyszukaj" />
                   <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="178.0" stylesheets="@../CSS/login.css" text="Zaloguj" />
                   <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="178.0" stylesheets="@../CSS/login.css" text="Sprawdź lokalizacje" />
                   <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" stylesheets="@../CSS/login.css" text="Wirtulny spacer" />
-                  <Button mnemonicParsing="false" onAction="#zamknij" prefHeight="37.0" prefWidth="180.0" stylesheets="@../CSS/login.css" text="Zamknij" />
+                  <Button mnemonicParsing="false" onAction="#zamknij" prefHeight="34.0" prefWidth="180.0" stylesheets="@../CSS/close.css" text="Zamknij" />
                </children>
             </VBox>
          </children>
       </Pane>
       <VBox prefHeight="699.0" prefWidth="871.0">
          <children>
-            <Pane prefHeight="40.0" prefWidth="762.0" style="-fx-background-color: #2b579a;">
+            <Pane prefHeight="33.0" prefWidth="837.0" style="-fx-background-color: #2b579a;">
                <children>
-                  <Label layoutX="806.0" layoutY="8.0" onMouseClicked="#xZamknij" text="X" textFill="WHITE">
-                     <font>
-                        <Font name="Arial Bold" size="24.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="-3.0" layoutY="-4.0" prefHeight="51.0" prefWidth="803.0" stylesheets="@../CSS/login.css" text="Pasaż handlowy ™" textFill="#fffdfd">
+                  <Label layoutX="-3.0" layoutY="-4.0" prefHeight="51.0" prefWidth="784.0" stylesheets="@../CSS/login.css" text="Pasaż handlowy ™" textFill="#fffdfd">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Label>
+                  <Button layoutX="781.0" mnemonicParsing="false" onAction="#zamknij" prefHeight="34.0" prefWidth="56.0" stylesheets="@../CSS/close.css" text="X" />
                </children>
             </Pane>
             <Separator prefWidth="762.0" />
             <SplitPane prefHeight="401.0" prefWidth="834.0" />
+            <TreeTableView prefHeight="264.0" prefWidth="837.0" stylesheets="@../CSS/login.css" />
          </children>
       </VBox>
    </children>

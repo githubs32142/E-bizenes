@@ -5,3 +5,4 @@ Utworzono kontroller głównego okna
 Dodano obiekty do głownego okne
 Utworzono style CSS do przycisków
 Oprogramowano przycisk Zamknij.
+Dodano okno logowania. 
