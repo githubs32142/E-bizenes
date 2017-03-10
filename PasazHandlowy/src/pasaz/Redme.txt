@@ -1,0 +1,7 @@
+Wersja 0.0 - Andrzej Kierepka 10.03.2017r
+Dodano:
+Stworzono główny interfesj programu,
+Utworzono kontroller głównego okna
+Dodano obiekty do głownego okne
+Utworzono style CSS do przycisków
+Oprogramowano przycisk Zamknij.
