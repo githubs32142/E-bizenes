@@ -1,3 +1,8 @@
+Wersja 0.1 - Andrzej Kierepka 19.03.2017r
+Dodano nowy layout
+Wprowadzono korektę do okna layout
+Wykonano częściowo mapkę pasażu(poziom 0)
+
 Wersja 0.0 - Andrzej Kierepka 11.03.2017r
 Dodano okno logowania. 
 

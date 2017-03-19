@@ -1,51 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.SplitPane?>
-<?import javafx.scene.control.TreeTableView?>
-<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pasaz.Controllers.MainWindowController">
+<AnchorPane id="AnchorPane" prefHeight="652.0" prefWidth="1225.0" style="-fx-background-color: white;" stylesheets="@../css/Metro-UI.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pasaz.Controllers.MainWindowController">
    <children>
-      <Pane prefHeight="699.0" prefWidth="221.0" style="-fx-background-color: #2b579a;">
+      <Separator layoutY="67.0" prefHeight="0.0" prefWidth="1225.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Text fill="#2b579a" layoutX="14.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galeria Pruchnicka Jarosław™" wrappingWidth="698.234375" AnchorPane.rightAnchor="513.765625">
+         <font>
+            <Font name="Berlin Sans FB" size="37.0" />
+         </font>
+      </Text>
+      <Pane layoutY="67.0" prefHeight="585.0" prefWidth="172.0" style="-fx-background-color: #2b579a;">
          <children>
-            <VBox layoutX="2.0" layoutY="-1.0" prefHeight="699.0" prefWidth="181.0">
-               <children>
-                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="51.0" prefWidth="180.0" stylesheets="@../CSS/Metro-UI.css" text="Menu:" textFill="WHITE">
-                     <font>
-                        <Font name="Arial" size="25.0" />
-                     </font>
-                  </Label>
-                  <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="178.0" stylesheets="@../CSS/Metro-UI.css" text="Sprawdź lokalizacje" />
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" stylesheets="@../CSS/Metro-UI.css" text="Wirtulny spacer" />
-                  <Button mnemonicParsing="false" onAction="#zamknij" prefHeight="0.0" prefWidth="180.0" stylesheets="@../CSS/Metro-UI.css" text="Zaloguj" />
-                  <Button mnemonicParsing="false" onAction="#zamknij" prefHeight="0.0" prefWidth="180.0" stylesheets="@../CSS/Metro-UI.css" text="Wyszukaj" />
-                  <Button mnemonicParsing="false" onAction="#zamknij" prefHeight="34.0" prefWidth="180.0" stylesheets="@../CSS/Metro-UI.css" text="Zamknij" />
-               </children>
-            </VBox>
+            <Button alignment="CENTER_RIGHT" mnemonicParsing="false" prefHeight="100.0" prefWidth="170.0" stylesheets="@../CSS/login.css" text="Zaloguj" />
+            <Button alignment="CENTER_RIGHT" layoutY="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="170.0" stylesheets="@../CSS/login.css" text="Wyszukaj" />
+            <Button alignment="CENTER_RIGHT" layoutY="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="170.0" stylesheets="@../CSS/login.css" text="Pozycja" />
+            <Button alignment="CENTER_RIGHT" layoutY="300.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="170.0" stylesheets="@../CSS/login.css" text="Zamknij" />
+            <ImageView fitHeight="64.0" fitWidth="62.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resource/login.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="17.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resource/search.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="53.0" layoutX="14.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resource/marker.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="62.0" fitWidth="53.0" layoutX="14.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resource/close2.png" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
-      <VBox prefHeight="699.0" prefWidth="871.0">
-         <children>
-            <Pane prefHeight="101.0" prefWidth="837.0" style="-fx-background-color: #2b579a;">
-               <children>
-                  <Label layoutX="-3.0" layoutY="-4.0" prefHeight="51.0" prefWidth="784.0" stylesheets="@../CSS/login.css" text="Pasaż handlowy ™" textFill="#fffdfd">
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </Label>
-                  <Button layoutX="781.0" mnemonicParsing="false" onAction="#zamknij" prefHeight="40.0" prefWidth="57.0" stylesheets="@../CSS/close.css" text="X" />
-               </children>
-            </Pane>
-            <Separator prefWidth="762.0" />
-            <SplitPane prefHeight="414.0" prefWidth="837.0" />
-            <TreeTableView prefHeight="264.0" prefWidth="837.0" stylesheets="@../CSS/login.css" />
-         </children>
-      </VBox>
+      <TabPane layoutX="175.0" layoutY="71.0" prefHeight="579.0" prefWidth="1051.0" stylesheets="@../CSS/Metro-UI.css" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Aktualności">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Promocje">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+          <Tab text="Plan Galerii">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="529.0" prefWidth="1051.0">
+                     <children>
+                        <Pane layoutX="8.0" layoutY="7.0" prefHeight="41.0" prefWidth="586.0">
+                           <children>
+                              <ChoiceBox layoutX="14.0" layoutY="14.0" prefWidth="150.0" />
+                           </children>
+                        </Pane>
+                        <ImageView fitHeight="187.0" fitWidth="291.0" layoutX="8.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/tesco.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="199.0" fitWidth="296.0" layoutX="126.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/txm.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="204.0" fitWidth="100.0" layoutX="350.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/NIK.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="206.0" fitWidth="126.0" layoutX="450.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/TOMASZ.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="202.0" fitWidth="149.0" layoutX="576.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/Laboo.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="267.0" fitWidth="298.0" layoutX="725.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/martes.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="113.0" fitWidth="105.0" layoutX="725.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/play.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="107.0" fitWidth="79.0" layoutX="830.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/kwiaciarnia.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="57.0" fitWidth="104.0" layoutX="909.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Resource/Plan_hali/Poziom0/kolporter.png" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Sklepy">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
    </children>
-</HBox>
+</AnchorPane>
