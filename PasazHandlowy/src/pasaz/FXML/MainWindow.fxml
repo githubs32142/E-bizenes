@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
@@ -12,15 +11,15 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="652.0" prefWidth="1225.0" style="-fx-background-color: white;" stylesheets="@../css/Metro-UI.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pasaz.Controllers.MainWindowController">
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1225.0" style="-fx-background-color: white;" stylesheets="@../css/Metro-UI.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pasaz.Controllers.MainWindowController">
    <children>
-      <Separator layoutY="67.0" prefHeight="0.0" prefWidth="1225.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Separator layoutY="59.0" prefHeight="0.0" prefWidth="1226.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
       <Text fill="#2b579a" layoutX="14.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galeria Pruchnicka Jarosław™" wrappingWidth="698.234375" AnchorPane.rightAnchor="513.765625">
          <font>
             <Font name="Berlin Sans FB" size="37.0" />
          </font>
       </Text>
-      <Pane layoutY="67.0" prefHeight="585.0" prefWidth="172.0" style="-fx-background-color: #2b579a;">
+      <Pane layoutY="67.0" prefHeight="640.0" prefWidth="172.0" style="-fx-background-color: #2b579a;">
          <children>
             <Button alignment="CENTER_RIGHT" mnemonicParsing="false" prefHeight="100.0" prefWidth="170.0" stylesheets="@../CSS/login.css" text="Zaloguj" />
             <Button alignment="CENTER_RIGHT" layoutY="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="170.0" stylesheets="@../CSS/login.css" text="Wyszukaj" />
@@ -48,7 +47,7 @@
             </ImageView>
          </children>
       </Pane>
-      <TabPane layoutX="175.0" layoutY="71.0" prefHeight="579.0" prefWidth="1051.0" stylesheets="@../CSS/Metro-UI.css" tabClosingPolicy="UNAVAILABLE">
+      <TabPane layoutX="175.0" layoutY="71.0" prefHeight="640.0" prefWidth="1051.0" stylesheets="@../CSS/Metro-UI.css" tabClosingPolicy="UNAVAILABLE">
         <tabs>
             <Tab text="Aktualności">
               <content>
@@ -62,58 +61,129 @@
             </Tab>
           <Tab text="Plan Galerii">
             <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="529.0" prefWidth="1051.0">
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="570.0" prefWidth="1051.0">
                      <children>
-                        <Pane layoutX="8.0" layoutY="7.0" prefHeight="41.0" prefWidth="586.0">
-                           <children>
-                              <ChoiceBox layoutX="14.0" layoutY="14.0" prefWidth="150.0" />
-                           </children>
-                        </Pane>
-                        <ImageView fitHeight="187.0" fitWidth="291.0" layoutX="8.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/tesco.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="199.0" fitWidth="296.0" layoutX="126.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/txm.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="204.0" fitWidth="100.0" layoutX="350.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/NIK.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="206.0" fitWidth="126.0" layoutX="450.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/TOMASZ.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="202.0" fitWidth="149.0" layoutX="576.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/Laboo.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="267.0" fitWidth="298.0" layoutX="725.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/martes.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="113.0" fitWidth="105.0" layoutX="725.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/play.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="107.0" fitWidth="79.0" layoutX="830.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/kwiaciarnia.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="57.0" fitWidth="104.0" layoutX="909.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Resource/Plan_hali/Poziom0/kolporter.png" />
-                           </image>
-                        </ImageView>
+                        <TabPane prefHeight="800.0" prefWidth="1100.0" tabClosingPolicy="UNAVAILABLE">
+                          <tabs>
+                            <Tab text="Poziom 0">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <ImageView fitHeight="180.0" fitWidth="284.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/tesco.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="218.0" fitWidth="275.0" layoutX="120.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/txm.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="245.0" fitWidth="109.0" layoutX="365.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/NIK.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="221.0" fitWidth="137.0" layoutX="474.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/TOMASZ.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="299.0" fitWidth="163.0" layoutX="611.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/Laboo.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="179.0" fitWidth="281.0" layoutX="775.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/martes.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="100.0" fitWidth="78.0" layoutX="774.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/play.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="100.0" fitWidth="72.0" layoutX="852.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/kwiaciarnia.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="53.0" fitWidth="104.0" layoutX="924.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/kolporter.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="80.0" fitWidth="77.0" layoutX="951.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/Bankomat.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="130.0" fitWidth="156.0" layoutX="873.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/Apteka.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="130.0" fitWidth="183.0" layoutX="690.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/vision_optyk.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="121.0" fitWidth="99.0" layoutX="599.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/Zabawki.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="121.0" fitWidth="69.0" layoutX="531.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/Telefony.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="121.0" fitWidth="94.0" layoutX="439.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/Fryzjer.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="121.0" fitWidth="93.0" layoutX="366.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/Zoologiczny.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="85.0" fitWidth="70.0" layoutX="296.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/dorabianie_kluczy.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="100.0" fitWidth="89.0" layoutX="395.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/E-Papirosy.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="100.0" fitWidth="89.0" layoutX="562.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/SAPHIR.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="100.0" fitWidth="89.0" layoutX="734.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Resource/Plan_hali/Poziom0/VATOIV.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children></AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab text="Poziom 1">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                              </content>
+                            </Tab>
+                              <Tab text="Poziom 2">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                </content>
+                              </Tab>
+                          </tabs>
+                        </TabPane>
                      </children></AnchorPane>
             </content>
           </Tab>
