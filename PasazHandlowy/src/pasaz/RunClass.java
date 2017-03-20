@@ -30,7 +30,7 @@ public class RunClass extends Application {
         Parent pane= FXMLLoader.load(this.getClass().getResource("/pasaz/FXML/MainWindow.fxml"));
         //Parent pane= FXMLLoader.load(this.getClass().getResource("/pasaz/FXML/Logowanie.fxml"));
         
-        Scene scene= new Scene(pane,1200,600);
+        Scene scene= new Scene(pane,1220,700);
         //Scene scene= new Scene(pane);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Pasaż handlowy");
