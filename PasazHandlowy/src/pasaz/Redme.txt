@@ -1,16 +1,21 @@
-Wersja 0.1 - Andrzej Kierepka 19.03.2017r
-Dodano nowy layout
-Wprowadzono korektę do okna layout
-Wykonano częściowo mapkę pasażu(poziom 0)
+Wersja 0.2- @up Andrzej Kierepka 24.0.2017r
+Poprawiono zdjęcia z pierwszego planu pasażu- Karolina Grelak
+Dodano drugi poziom pasażu handlowego - Marcin Babiarz
+Wprowadzenie zmian do systemu - Andrzej Kierepka.
 
-Wersja 0.0 - Andrzej Kierepka 11.03.2017r
-Dodano okno logowania. 
+Wersja 0.1 - @up Andrzej Kierepka 19.03.2017r
+Dodano nowy layout- Andrzej Kierepka.
+Wprowadzono korektę do okna layout- Andrzej Kierepka.
+Wykonano częściowo mapkę pasażu(poziom 0)- Andrzej Kierepka.
 
-Wersja 0.0 - Andrzej Kierepka 10.03.2017r
+Wersja 0.0 - @up Andrzej Kierepka 11.03.2017r
+Dodano okno logowania. - Andrzej Kierepka.
+
+Wersja 0.0 - @up Andrzej Kierepka 10.03.2017r
 Dodano:
-Stworzono główny interfesj programu,
-Utworzono kontroller głównego okna
-Dodano obiekty do głownego okne
-Utworzono style CSS do przycisków
-Oprogramowano przycisk Zamknij.
+Stworzono główny interfesj programu,- Andrzej Kierepka.
+Utworzono kontroller głównego okna- Andrzej Kierepka.
+Dodano obiekty do głownego okne- Andrzej Kierepka.
+Utworzono style CSS do przycisków- Andrzej Kierepka.
+Oprogramowano przycisk Zamknij.- Andrzej Kierepka.
 
