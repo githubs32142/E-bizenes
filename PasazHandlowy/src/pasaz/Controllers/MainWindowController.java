@@ -5,9 +5,17 @@
  */
 package pasaz.Controllers;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
 
 /**
  * FXML Controller class
@@ -23,5 +31,46 @@ public class MainWindowController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void LogIn(ActionEvent event) {
+    }
+
+    @FXML
+    private void locationAction(ActionEvent event) {
+        Parent root;
+        try {
+            FXMLLoader load=  new FXMLLoader(getClass().getResource("/pasaz/FXML/Location.fxml"));
+            root=load.load();
+
+            Stage stage = new Stage();
+            stage.setTitle("Pasaż handlowy");
+            stage.setScene(new Scene(root, 900, 550));
+            stage.setResizable(false);
+            stage.show();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    
+    }
+
+    @FXML
+    private void pozycjaClick(MouseEvent event) {
+                Parent root;
+        try {
+            FXMLLoader load=  new FXMLLoader(getClass().getResource("/pasaz/FXML/Location.fxml"));
+            root=load.load();
+
+            Stage stage = new Stage();
+            stage.setTitle("Pasaż handlowy");
+            stage.setScene(new Scene(root, 900, 550));
+            stage.setResizable(false);
+            stage.show();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     
 }

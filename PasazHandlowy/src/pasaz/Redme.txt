@@ -1,6 +1,10 @@
+Wersja 0.3- @up Andrzej Kierepka 24.0.2017r
+Utworzono Diagram ERD - Andrzej Kierepka.
+Dodano funkcjonalność: "Nawigacja do pasażu" - Andrzej Kierepka.
+
 Wersja 0.2- @up Andrzej Kierepka 24.0.2017r
-Poprawiono zdjęcia z pierwszego planu pasażu- Karolina Grelak
-Dodano drugi poziom pasażu handlowego - Marcin Babiarz
+Poprawiono zdjęcia z zerowego planu pasażu- Karolina Grelak
+Dodano pierwszego poziom pasażu handlowego - Marcin Babiarz
 Wprowadzenie zmian do systemu - Andrzej Kierepka.
 
 Wersja 0.1 - @up Andrzej Kierepka 19.03.2017r
@@ -13,7 +17,7 @@ Dodano okno logowania. - Andrzej Kierepka.
 
 Wersja 0.0 - @up Andrzej Kierepka 10.03.2017r
 Dodano:
-Stworzono główny interfesj programu,- Andrzej Kierepka.
+Stworzono główny interfejs programu,- Andrzej Kierepka.
 Utworzono kontroller głównego okna- Andrzej Kierepka.
 Dodano obiekty do głownego okne- Andrzej Kierepka.
 Utworzono style CSS do przycisków- Andrzej Kierepka.

@@ -24,7 +24,7 @@ import javafx.scene.input.MouseEvent;
  * @author Admin
  */
 public class LogowanieController implements Initializable {
-
+    
     @FXML
     private Button logIn;
     @FXML
@@ -39,10 +39,13 @@ public class LogowanieController implements Initializable {
     /**
      * Initializes the controller class.
      */
+    
+
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-                Platform.runLater(() -> {
-
+        Platform.runLater(() -> {
+            
             new FadeInLeftTransition1(loginText).play();
             new FadeInLeftTransition1(passwordText).play();
             new FadeInRightTransition(logIn).play();
