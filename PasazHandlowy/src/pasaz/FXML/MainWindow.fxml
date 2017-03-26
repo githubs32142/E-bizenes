@@ -184,7 +184,7 @@
                                        <children>
                                           <ScrollPane layoutY="6.0" prefHeight="468.0" prefWidth="725.0">
                                             <content>
-                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="464.0" prefWidth="930.0">
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="464.0" prefWidth="1200.0">
                                                    <children>
                                                       <ImageView fitHeight="53.0" fitWidth="74.0" layoutX="11.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -228,7 +228,7 @@
                                                       </ImageView>
                                                       <ImageView fitHeight="89.0" fitWidth="58.0" layoutX="795.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
-                                                            <Image url="@../Resource/Plan_hali/Poziom1/9%20Aikon%20eksluzywna%20moda%20m�ska.png" />
+                                                            <Image url="@../Resource/Plan_hali/Poziom1/9%20Aikon%20eksluzywna%20moda%20męska.png" />
                                                          </image>
                                                       </ImageView>
                                                       <ImageView fitHeight="116.0" fitWidth="393.0" layoutX="457.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
@@ -258,7 +258,7 @@
                                                       </ImageView>
                                                       <ImageView fitHeight="100.0" fitWidth="53.0" layoutX="457.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
-                                                            <Image url="@../Resource/Plan_hali/Poziom1/15%20Duet%20odzie�%20dla%20pa�.png" />
+                                                            <Image url="@../Resource/Plan_hali/Poziom1/15%20Duet%20odzież%20dla%20pań.png" />
                                                          </image>
                                                       </ImageView>
                                                       <ImageView fitHeight="122.0" fitWidth="115.0" layoutX="510.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
@@ -268,12 +268,12 @@
                                                       </ImageView>
                                                       <ImageView fitHeight="90.0" fitWidth="62.0" layoutX="628.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
-                                                            <Image url="@../Resource/Plan_hali/Poziom1/17%20Esotiq%20bielizna%20damska%20m�ska.png" />
+                                                            <Image url="@../Resource/Plan_hali/Poziom1/17%20Esotiq%20bielizna%20damska%20męska.png" />
                                                          </image>
                                                       </ImageView>
                                                       <ImageView fitHeight="90.0" fitWidth="62.0" layoutX="688.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
-                                                            <Image url="@../Resource/Plan_hali/Poziom1/18%20Moodo%20moda%20m�odzie�owa.png" />
+                                                            <Image url="@../Resource/Plan_hali/Poziom1/18%20Moodo%20moda%20młodzieżowa.png" />
                                                          </image>
                                                       </ImageView>
                                                       <ImageView fitHeight="90.0" fitWidth="62.0" layoutX="749.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
@@ -290,9 +290,56 @@
                               </content>
                             </Tab>
                               <Tab text="Poziom 2">
-                                <content>
-                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                </content>
+                                 <content>
+                                    <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="473.0" prefWidth="723.0">
+                                      <content>
+                                        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="496.0" prefWidth="1000.0">
+                                             <children>
+                                                <ImageView fitHeight="79.0" fitWidth="121.0" layoutX="308.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Resource/Plan_hali/Poziom2/1%20sala%20konferencyjna.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="89.0" fitWidth="92.0" layoutX="426.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Resource/Plan_hali/Poziom2/2%20bajkolandia%20sala%20zabaw.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="34.0" fitWidth="32.0" layoutX="34.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Resource/Plan_hali/Poziom2/3%20wpłatomat.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="238.0" fitWidth="44.0" layoutX="34.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Resource/Plan_hali/Poziom2/4%20szron.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="266.0" fitWidth="348.0" layoutX="90.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Resource/Plan_hali/Poziom2/5%20RTV%20EURO%20AGD.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="135.0" fitWidth="77.0" layoutX="510.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Resource/Plan_hali/Poziom2/6%20witeks.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="258.0" fitWidth="319.0" layoutX="599.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Resource/Plan_hali/Poziom2/7%20Black%20Red%20White.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="129.0" fitWidth="90.0" layoutX="434.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Resource/Plan_hali/Poziom2/8%20avatar%20solarium.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </AnchorPane>
+                                      </content>
+                                    </ScrollPane>
+                                 </content>
                               </Tab>
                           </tabs>
                         </TabPane>

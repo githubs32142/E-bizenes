@@ -1,6 +1,8 @@
 Wersja 0.3- @up Andrzej Kierepka 24.0.2017r
 Utworzono Diagram ERD - Andrzej Kierepka.
 Dodano funkcjonalność: "Nawigacja do pasażu" - Andrzej Kierepka.
+Dodano zdjęcia drugiego poziomu pasażu handlowego - Karolina Grelak
+Poprawiono ikonki z pierwszego oraz zerowego poziomu- Marcin Babiarz Karolina Grelak 
 
 Wersja 0.2- @up Andrzej Kierepka 24.0.2017r
 Poprawiono zdjęcia z zerowego planu pasażu- Karolina Grelak
