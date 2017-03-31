@@ -1,3 +1,5 @@
+Wersja 0.4- @up Andrzej Kierepka 31.0.2017r
+Dodanie nowego okna panel sprzedawcy-Andrzej Kierepka
 Wersja 0.3- @up Andrzej Kierepka 24.0.2017r
 Utworzono Diagram ERD - Andrzej Kierepka.
 Dodano funkcjonalność: "Nawigacja do pasażu" - Andrzej Kierepka.

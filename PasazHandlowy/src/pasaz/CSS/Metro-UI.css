@@ -1,12 +1,4 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 9, 2015, 6:21:30 PM
-    Author     : Herudi
-*/
+
 
 .page1{
     -fx-border-color:#2c62b5;
@@ -167,7 +159,7 @@ and open the template in the editor.
     -fx-border-style: none; 
     -fx-background-radius: 0;
     -fx-border-color : transparent;
-/*    -fx-border-width:2;*/
+    -fx-border-width:2;
     -fx-background-color: #299bb4;
     -fx-background-insets: 0;
     -fx-border-insets: 0;
@@ -532,11 +524,11 @@ and open the template in the editor.
  *                                                                             *
  ******************************************************************************/
  
-/*.tooltip {
+.tooltip {
     -fx-background-color: white;
     -fx-background-insets: 0;
     -fx-background-radius: 0 0 0 0;
-    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;  4 8 4 8 
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;  
     -fx-effect: dropshadow( one-pass-box , #808080 , 5, 0.0 , 0 , 0 );
     -fx-font-family: "Segoe UI Semilight", "Segoe UI Light", "Segoe UI", Helvetica, Arial, sans-serif;
     -fx-text-fill: #949494;
@@ -547,7 +539,7 @@ and open the template in the editor.
     -fx-background-color: transparent;
     -fx-shape: null;
     -fx-effect: null;
-}*/
+}
  
  /*******************************************************************************
  *                                                                             *

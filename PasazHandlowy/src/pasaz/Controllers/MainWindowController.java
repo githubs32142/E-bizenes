@@ -8,6 +8,7 @@ package pasaz.Controllers;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -71,6 +72,16 @@ public class MainWindowController implements Initializable {
         catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @FXML
+    private void exit(ActionEvent event) {
+        Platform.exit();
+    }
+
+    @FXML
+    private void exit(MouseEvent event) {
+        Platform.exit();
     }
     
 }
