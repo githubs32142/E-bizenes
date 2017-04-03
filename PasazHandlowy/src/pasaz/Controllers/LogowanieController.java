@@ -9,14 +9,23 @@ import herudi.animations.FadeInLeftTransition1;
 import herudi.animations.FadeInRightTransition;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 /**
  * FXML Controller class
@@ -56,5 +65,47 @@ public class LogowanieController implements Initializable {
             });
         });
     }    
+
+    @FXML
+    private void LogIn(ActionEvent event) {
+         try{
+                FXMLLoader load = new FXMLLoader(this.getClass().getResource("/pasaz/FXML/ShopWindow.fxml")); 
+                Parent parent= load.load();
+                Scene scene = new Scene(parent);
+                Stage primaryStage = new Stage();
+                primaryStage.setScene(scene);          
+                //primaryStage.initStyle(StageStyle.UNDECORATED);
+                primaryStage.setResizable(false);
+                primaryStage.show();
+                Stage stage;
+                stage = (Stage) ((Node)(event.getSource())).getScene().getWindow();
+                stage.close();
+            }
+            catch(Exception e){
+                 Logger logger = Logger.getLogger(getClass().getName());
+                logger.log(Level.SEVERE, "Failed to create new Window.", e);
+            }
+    }
+
+    @FXML
+    private void back(ActionEvent event) {
+        try{
+                FXMLLoader load = new FXMLLoader(this.getClass().getResource("/pasaz/FXML/MainWindow.fxml")); 
+                Parent parent= load.load();
+                Scene scene = new Scene(parent);
+                Stage primaryStage = new Stage();
+                primaryStage.setScene(scene);          
+                //primaryStage.initStyle(StageStyle.UNDECORATED);
+                primaryStage.setResizable(false);
+                primaryStage.show();
+                Stage stage;
+                stage = (Stage) ((Node)(event.getSource())).getScene().getWindow();
+                stage.close();
+            }
+            catch(Exception e){
+                 Logger logger = Logger.getLogger(getClass().getName());
+                logger.log(Level.SEVERE, "Failed to create new Window.", e);
+            }
+    }
     
 }

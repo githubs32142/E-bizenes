@@ -8,12 +8,12 @@
 
 <AnchorPane id="AnchorPane" prefHeight="313.0" prefWidth="450.0" style="-fx-background-color: #2b579a;" stylesheets="@../CSS/login.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pasaz.Controllers.LogowanieController">
    <children>
-      <Button fx:id="logIn" layoutX="250.0" layoutY="234.0" mnemonicParsing="false" text="Zaloguj" />
+      <Button fx:id="logIn" layoutX="250.0" layoutY="234.0" mnemonicParsing="false" onAction="#LogIn" text="Zaloguj" />
       <Label layoutX="62.0" layoutY="92.0" text="Login:" />
       <Label layoutX="62.0" layoutY="157.0" text="Hasło:" />
       <TextField fx:id="loginText" layoutX="145.0" layoutY="92.0" />
       <PasswordField fx:id="passwordText" layoutX="145.0" layoutY="157.0" />
-      <Button fx:id="close" layoutX="117.0" layoutY="234.0" mnemonicParsing="false" text="Zamknij" />
+      <Button fx:id="close" layoutX="117.0" layoutY="234.0" mnemonicParsing="false" onAction="#back" text="Zamknij" />
       <Label fx:id="close2" layoutX="397.0" layoutY="6.0" text="X" />
    </children>
 </AnchorPane>
