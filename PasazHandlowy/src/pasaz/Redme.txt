@@ -1,5 +1,6 @@
 Wersja 0.5- @up Andrzej Kierepka 31.0.2017r
 Sklejenie wszystkich dotychczasowych plików FXML-Andrzej Kierepka
+Dodanie diagramu przypadków użycia.
 
 Wersja 0.4- @up Andrzej Kierepka 31.0.2017r
 Dodanie nowego okna panel sprzedawcy-Andrzej Kierepka
